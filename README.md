@@ -23,18 +23,20 @@ Plan your perfect trip with AI — from destination suggestions to flights, hote
 ## 📁 Project Structure
 
 travel-agent/
-│
-├── main.py # Main chatbot logic
-├── .env # Store your GEMINI_API_KEY here
+├── main.py                  # Main chat logic (Chainlit app entry point)
+├── .env                     # Stores GEMINI_API_KEY
 │
 ├── agents/
-│ ├── destination_agent.py # Suggests destinations based on travel mood
-│ ├── booking_agent.py # Handles flight and hotel logic
-│ └── explore_agent.py # Provides local guides and experiences
+│   ├── destination_agent.py # Suggests destinations based on mood
+│   ├── booking_agent.py     # Handles flights & hotels
+│   └── explore_agent.py     # Lists local activities
 │
-└── tools/
-├── flights.py #  Flight logic
-└── hotels.py # Hotel logic
+├── tools/
+│   ├── flights.py           # flight logic
+│   └── hotels.py            # hotel logic
+│
+
+
 
 ## ⚙️ Setup Instructions
 
