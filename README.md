@@ -44,8 +44,7 @@ travel-agent/
    ```bash
    git clone https://github.com/your-username/ai-travel-designer.git
    cd ai-travel-designer
-
-   Create a virtual environment
+   
 
 2. setup virtual environment  
 python -m venv venv
@@ -56,3 +55,6 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 4.Run the app
 chainlit run main.py
+
+Author 
+Sadia Tariq...
