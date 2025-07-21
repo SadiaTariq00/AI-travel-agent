@@ -42,7 +42,7 @@ travel-agent/
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/ai-travel-designer.git
+   git clone https://github.com/SadiaTariq00/AI-travel-agent.git
    cd ai-travel-designer
    
 
